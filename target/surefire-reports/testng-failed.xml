@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.citibank.utilities.ExtentListner"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.citibank.testcases.CitiBank_LoginTest">
+        <methods>
+          <include name="TC003_LoginTest_LoginWithInValidUserNameAndValidPassword"/>
+          <include name="TearDown"/>
+          <include name="TC004_LoginTest_LoginWithOutCredentials"/>
+          <include name="TC006_LoginTest_LoginWithValidCredentialsUsingEnter"/>
+          <include name="TC001_LoginTest_LoginWithValidCredentials"/>
+          <include name="SetUp"/>
+          <include name="TC002_LoginTest_LoginWithValidUsernameAndInValidPassword"/>
+          <include name="TC005_LoginTest_LoginWithWrongCredentials"/>
+        </methods>
+      </class> <!-- com.citibank.testcases.CitiBank_LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

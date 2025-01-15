@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 10, Errors: 0, Skipped: 6, Time elapsed: 2.64 sec <<< FAILURE! - in TestSuite
+SetUp(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 1.918 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method SetUp but has not been marked @Optional or defined
+in C:\Users\Satee\eclipse-workspace\CitiBank\sanity.xml
+
+TearDown(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+SetUp(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 0.063 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method SetUp but has not been marked @Optional or defined
+in C:\Users\Satee\eclipse-workspace\CitiBank\sanity.xml
+
+TearDown(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+SetUp(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method SetUp but has not been marked @Optional or defined
+in C:\Users\Satee\eclipse-workspace\CitiBank\sanity.xml
+
+TearDown(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+SetUp(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 0.064 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method SetUp but has not been marked @Optional or defined
+in C:\Users\Satee\eclipse-workspace\CitiBank\sanity.xml
+
+TearDown(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+SetUp(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 0.045 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method SetUp but has not been marked @Optional or defined
+in C:\Users\Satee\eclipse-workspace\CitiBank\sanity.xml
+
+TearDown(com.citibank.testcases.CitiBank_LoginTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+

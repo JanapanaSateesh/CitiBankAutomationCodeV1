@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-09T11:38:01 IST" name="Suite" finished-at="2025-01-09T11:38:20 IST" duration-ms="18907">
+    <groups>
+      <group name="regression">
+        <method signature="CitiBank_LoginTest.TC001_LoginTest_LoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" name="TC001_LoginTest_LoginWithValidCredentials" class="com.citibank.testcases.CitiBank_LoginTest"/>
+        <method signature="CitiBank_LoginTest.TC002_LoginTest_LoginWithValidUsernameAndInValidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" name="TC002_LoginTest_LoginWithValidUsernameAndInValidPassword" class="com.citibank.testcases.CitiBank_LoginTest"/>
+        <method signature="CitiBank_LoginTest.TC003_LoginTest_LoginWithInValidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" name="TC003_LoginTest_LoginWithInValidUserNameAndValidPassword" class="com.citibank.testcases.CitiBank_LoginTest"/>
+        <method signature="CitiBank_LoginTest.TC004_LoginTest_LoginWithOutCredentials()[pri:4, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" name="TC004_LoginTest_LoginWithOutCredentials" class="com.citibank.testcases.CitiBank_LoginTest"/>
+        <method signature="CitiBank_LoginTest.TC005_LoginTest_LoginWithWrongCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" name="TC005_LoginTest_LoginWithWrongCredentials" class="com.citibank.testcases.CitiBank_LoginTest"/>
+        <method signature="CitiBank_LoginTest.TC006_LoginTest_LoginWithValidCredentialsUsingEnter(java.lang.String,java.lang.String)[pri:6, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" name="TC006_LoginTest_LoginWithValidCredentialsUsingEnter" class="com.citibank.testcases.CitiBank_LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CitiBank_LoginTest.TC001_LoginTest_LoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" name="TC001_LoginTest_LoginWithValidCredentials" class="com.citibank.testcases.CitiBank_LoginTest"/>
+        <method signature="CitiBank_LoginTest.TC006_LoginTest_LoginWithValidCredentialsUsingEnter(java.lang.String,java.lang.String)[pri:6, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" name="TC006_LoginTest_LoginWithValidCredentialsUsingEnter" class="com.citibank.testcases.CitiBank_LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="CitiBank_LoginTest.TC005_LoginTest_LoginWithWrongCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" name="TC005_LoginTest_LoginWithWrongCredentials" class="com.citibank.testcases.CitiBank_LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-01-09T11:38:01 IST" name="Test" finished-at="2025-01-09T11:38:20 IST" duration-ms="18907">
+      <class name="com.citibank.testcases.CitiBank_LoginTest">
+        <test-method is-config="true" signature="SetUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:01 IST" name="SetUp" finished-at="2025-01-09T11:38:10 IST" duration-ms="8852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22680f52]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="SetUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:02 IST" name="SetUp" finished-at="2025-01-09T11:38:13 IST" duration-ms="10188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22680f52]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="SetUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:02 IST" name="SetUp" finished-at="2025-01-09T11:38:12 IST" duration-ms="9741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22680f52]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="SetUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:02 IST" name="SetUp" finished-at="2025-01-09T11:38:14 IST" duration-ms="11106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22680f52]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="SetUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:02 IST" name="SetUp" finished-at="2025-01-09T11:38:14 IST" duration-ms="11163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22680f52]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TC004_LoginTest_LoginWithOutCredentials()[pri:4, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:10 IST" name="TC004_LoginTest_LoginWithOutCredentials" finished-at="2025-01-09T11:38:13 IST" duration-ms="2670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_LoginTest_LoginWithOutCredentials -->
+        <test-method signature="TC005_LoginTest_LoginWithWrongCredentials(java.lang.String,java.lang.String)[pri:5, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:12 IST" name="TC005_LoginTest_LoginWithWrongCredentials" data-provider="TC005_TestData" finished-at="2025-01-09T11:38:14 IST" duration-ms="1831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[satesssh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sateesh@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_LoginTest_LoginWithWrongCredentials -->
+        <test-method signature="TC002_LoginTest_LoginWithValidUsernameAndInValidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:13 IST" name="TC002_LoginTest_LoginWithValidUsernameAndInValidPassword" data-provider="TC002_TestData" finished-at="2025-01-09T11:38:14 IST" duration-ms="1147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr26593]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sateesh@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_LoginTest_LoginWithValidUsernameAndInValidPassword -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:13 IST" name="TearDown" finished-at="2025-01-09T11:38:15 IST" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="TC001_LoginTest_LoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:14 IST" name="TC001_LoginTest_LoginWithValidCredentials" data-provider="TC001_TestData" finished-at="2025-01-09T11:38:16 IST" duration-ms="2059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr26593]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123Abc@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_LoginTest_LoginWithValidCredentials -->
+        <test-method signature="TC003_LoginTest_LoginWithInValidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:14 IST" name="TC003_LoginTest_LoginWithInValidUserNameAndValidPassword" data-provider="TC003_TestData" finished-at="2025-01-09T11:38:15 IST" duration-ms="1667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sateesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123Abc@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_LoginTest_LoginWithInValidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:14 IST" name="TearDown" finished-at="2025-01-09T11:38:15 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:14 IST" name="TearDown" finished-at="2025-01-09T11:38:15 IST" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:15 IST" name="SetUp" finished-at="2025-01-09T11:38:19 IST" duration-ms="3690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22680f52]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:15 IST" name="TearDown" finished-at="2025-01-09T11:38:16 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:16 IST" name="TearDown" finished-at="2025-01-09T11:38:16 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="TC006_LoginTest_LoginWithValidCredentialsUsingEnter(java.lang.String,java.lang.String)[pri:6, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:19 IST" name="TC006_LoginTest_LoginWithValidCredentialsUsingEnter" data-provider="TC006_TestData" finished-at="2025-01-09T11:38:20 IST" duration-ms="1021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr26593]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123Abc@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_LoginTest_LoginWithValidCredentialsUsingEnter -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.citibank.testcases.CitiBank_LoginTest@4b29d1d2]" started-at="2025-01-09T11:38:20 IST" name="TearDown" finished-at="2025-01-09T11:38:20 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.citibank.testcases.CitiBank_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
